@@ -15,11 +15,14 @@ public class User {
         this.lastName = lastName;
     }
 
+
     @ColumnInfo(name = "first_name")
     public String firstName;
 
     @ColumnInfo(name = "last_name")
     public String lastName;
+
+
 
     public int getUid() {
         return uid;

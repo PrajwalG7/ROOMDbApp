@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter your User ID"
+        android:inputType="number"
         android:id="@+id/userid"/>
     <EditText
         android:layout_width="wrap_content"
@@ -33,9 +34,15 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:id="@+id/showRecords"
         android:text="Show Records"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete record by Id"
+        android:id="@+id/btnDelete"
+        />
 
 
 
